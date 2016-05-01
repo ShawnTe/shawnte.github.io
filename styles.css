@@ -1,3 +1,91 @@
-h1 {
-  font-family: Futura;
+body {
+  padding: 20px;
+  font-family: Verdana;
+  max-width: 960px;
 }
+
+#home {
+  font-family: Impact;
+  color: #fff;
+  font-size: 2.5em;
+  line-height: 1em;
+  height: 200px;
+  width: 50px;
+  padding: 5px 0 5px 20px;
+}
+
+h1 {
+  font-family: Impact;
+}
+
+#header {
+  background-image: url("images/butterfly2.jpg");
+  width: 100%;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: orange;
+}
+
+a {
+  font-family: Futura;
+  text-decoration: none;
+}
+
+
+img.logo {
+  border: 1px solid #000;
+  float: left;  
+  margin-right: 10px;
+}
+img.photos {
+  border: 2px dashed;
+  padding: 5px;
+  margin: 0px 5px;
+}
+
+li {
+  margin-left: 150px;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+
+}
+
+.img-center {
+  float: left;
+  width:290px;
+  height: 218px;
+  border: 2px dashed;
+  padding: 5px;
+  margin: 0px 5px 50px 0px;
+}
+
+p.clear {
+  clear: left;
+}
+
+@media screen and (max-width: 600px) {
+  #home {
+   font-size: 4em;
+   line-height: 1em;
+   height: 150px;
+   width: 100%;
+   padding-top: 100px;  
+  }
+
+
+  #header {
+    text-align: center;
+  }
+  }
+
+  
