@@ -1,7 +1,7 @@
 body {
   padding: 20px;
   font-family: Verdana;
-  background-image: url ("images/butterfly.jpg");
+  max-width: 960px;
 }
 
 #home {
@@ -62,8 +62,8 @@ li {
 
 .img-center {
   float: left;
-  width:290;
-  height: 218;
+  width:290px;
+  height: 218px;
   border: 2px dashed;
   padding: 5px;
   margin: 0px 5px 50px 0px;
@@ -72,3 +72,20 @@ li {
 p.clear {
   clear: left;
 }
+
+@media screen and (max-width: 600px) {
+  #home {
+   font-size: 4em;
+   line-height: 1em;
+   height: 150px;
+   width: 100%;
+   padding-top: 100px;  
+  }
+
+
+  #header {
+    text-align: center;
+  }
+  }
+
+  
