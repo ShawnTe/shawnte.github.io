@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>
+    Street Art
+  </title>
+</head>
+<body>
+  <nav>
+    <a href="other-cities.html">Other Cities</a>
+  </nav>
+  <section>
+    <div id="header">
+      <h1 id="home">Street art is for everyone</h1>
+    </div>
+    
+    <p>While traveling the world in my location independent status over the     last few years, I've come to love exploring a city through its street   art.  </p>
+    <p>Finding maps through Google that people (or the artists themselves)  have   created, I've had the opportunity to explore neighborhoods far  from the   tourist book.</p>
+    <p>The following images are all from my current hometown of <strong>Oakland, CA</strong>.  <br /><em>I've taken all the photos myself.</em></p>
+    
+    <p>But first, a few words from the notorious mystery man himself, Banksy. </p  >
+    <blockquote>"Graffiti is one of the few tools you have if you have  almost   nothing. And even if you don't come up with a picture to cure world poverty   you can make someone smile while they're having a piss."<br />
+    <em>Banksy, Banging Your Head Against a Brick Wall</em></blockquote>
+  </section>
+  <div class="centered">
+    <div>
+      <img src="https://farm2.staticflickr.com/1502/24340401036_9dbab3d60c_z.jpg" class="img-center" width="290" height="218" alt="downtown Oakland street art">
+    </div>
+  
+    <div>
+      <img src="https://farm2.staticflickr.com/1442/23738364704_f2c9e670de_z.jpg" class="img-center" width="290" height="218" alt="street art off Grand Ave">
+    </div>
+
+    <div>
+      <img src="https://farm2.staticflickr.com/1481/24284037751_a096c2e09c_z.jpg" class="img-center" width="290" height="218" alt="street art off Grand Ave">
+    </div>
+  </div>
+
+  <div>
+    <p class="clear">Here's the <a href="http://globalstreetart.com/"> Global   Street Art</a> site based in London. <a href="http://globalstreetart.com/"><img src="images/global-street-art.png"   alt="Global Street Art" class="logo" /></a>
+    <br />
+    My thoughts on this site:
+    <ul>
+      <li>it's image based, which is awesome, especially given  the subject matter</li>
+      <li>there are a ton of images on the home page which can  be kinda overwhelming</li> 
+      <li>I like how on the images you can tell whether it's a  single image or if there's a link through to an album of   images</li>
+      <li>I also like how you can link through to the artist  from the large home page thumbnail</li>
+    </ul> 
+    <p>Overall, the site has a clean look and is easy to  navigate.</p>
+  
+  </div>
+  <form action="https://httpbin.org/post" method="post">
+    <fieldset>
+      <P>Are you interested street art, too? Let me know!</P>
+      <div>
+        <label>What's your name?</label>
+        <input type="text" name="username" />
+      </div>
+      <br />
+      <div>
+        <label>What is your fave street artist or style?</label><br />
+        <textarea name="comments" rows="5" cols="50">Put your thoughts here, it could even just be places you've seen great stuff. </textarea>
+      </div>
+      <br />
+      <div>
+        <p>Which city would you like to see street art in? <em>(hint: you can choose more than one!)</em></p>
+        <input type="checkbox" name="pref_city" value="San Francisco" />San Francisco
+        <input type="checkbox" name="pref_city" value="San Francisco" />Barcelona
+        <input type="checkbox" name="pref_city" value="San Francisco" />Berlin
+      </div>
+      <br />
+        <input type="submit" name="submit_survey" value="Submit" /> 
+    </fieldset>
+  </form>
+</body>
+</html>
